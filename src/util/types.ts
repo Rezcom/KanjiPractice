@@ -4,8 +4,10 @@ export interface VocabSet {
 
 export interface Question {
   term: Term;
-  englishCorrect?: number;
-  kanaCorrect?: number;
+  questionType: "kana" | "english";
+  englishCorrect: number;
+  kanaCorrect: number;
+  attempts: number;
 }
 
 interface Term {

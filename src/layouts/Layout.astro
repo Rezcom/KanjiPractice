@@ -10,7 +10,8 @@ import "@/styles/global.css";
     <meta name="generator" content={Astro.generator} />
     <title>Kanji Practice</title>
   </head>
-  <body>
+  <body class="bg-black flex flex-row">
     <slot />
+    <script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
   </body>
 </html>

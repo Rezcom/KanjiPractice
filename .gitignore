@@ -1,5 +1,10 @@
 # build output
 dist/
+
+# pnpm
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
 # generated types
 .astro/
 

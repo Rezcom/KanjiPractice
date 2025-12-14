@@ -8,7 +8,8 @@
       "@/*": ["src/*"],
       "@components/*": ["src/components/*"],
       "@layouts/*": ["src/layouts/*"],
-      "@util/*": ["src/util/*"]
+      "@util/*": ["src/util/*"],
+      "@vocab/*": ["src/vocab/*"]
     },
   }
 }
