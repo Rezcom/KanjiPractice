@@ -1,10 +1,12 @@
+export type QuestionType = "kana" | "english" | "kanji";
+
 export interface VocabSet {
   vocab: Term[];
 }
 
 export interface Question {
   term: Term;
-  questionType: "kana" | "english";
+  questionType: QuestionType;
   englishCorrect: number;
   kanaCorrect: number;
   attempts: number;
