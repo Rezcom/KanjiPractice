@@ -138,7 +138,7 @@
   });
 </script>
 
-<div class="text-white">
+<div class="text-white absolute">
   Remaining: {remainingQuestions.length}
   <br />
   Current: {currentBatch.length}
