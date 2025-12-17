@@ -136,11 +136,6 @@
       "English": "delivery (suru verb)"
     },
     {
-      "Kanji": "配達",
-      "Kana": "はいたつ",
-      "English": "delivery (suru verb)"
-    },
-    {
       "Kanji": "研究",
       "Kana": "けんきゅう",
       "English": "research; study"
@@ -158,6 +153,61 @@
       "Kanji": "産業",
       "Kana": "さんぎょう",
       "English": "industry"
+    },
+    {
+      "Kanji": "教育",
+      "Kana": "きょういく",
+      "English": "education; schooling; training; teaching; upbringing; cultivation"
+    },
+    {
+      "Kanji": "許す",
+      "Kana": "ゆるす",
+      "English": "to permit; to allow; to forgive; to exempt (someone) from; to let off"
+    },
+    {
+      "Kanji": "簡単",
+      "Kana": "かんたん",
+      "English": "easy; simple"
+    },
+    {
+      "Kanji": "通学",
+      "Kana": "つうがく",
+      "English": "commuting to school"
+    },
+    {
+      "Kanji": "届ける",
+      "Kana": "とどける",
+      "English": "to deliver; to forward; to send"
+    },
+    {
+      "Kanji": "届く",
+      "Kana": "とどく",
+      "English": "to reach; to touch; to get to; to be delivered; to arrive; to carry (the sound of)"
+    },
+    {
+      "Kanji": "配る",
+      "Kana": "くばる",
+      "English": "to distribute; to hand out"
+    },
+    {
+      "Kanji": "工場",
+      "Kana": "こうじょう",
+      "English": "factory; plant; mill; workshop"
+    },
+    {
+      "Kanji": "工業",
+      "Kana": "こうぎょう",
+      "English": "manufacturing industry"
+    },
+    {
+      "Kanji": "都市",
+      "Kana": "とし",
+      "English": "town; city; municipal; urban"
+    },
+    {
+      "Kanji": "報告",
+      "Kana": "ほうこく",
+      "English": "report; information"
     }
   ]
 }
