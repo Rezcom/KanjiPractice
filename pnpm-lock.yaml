@@ -11,6 +11,9 @@ importers:
       '@astrojs/svelte':
         specifier: ^7.2.3
         version: 7.2.3(@types/node@25.0.1)(astro@5.16.5(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.53.3)(typescript@5.9.3))(jiti@2.6.1)(lightningcss@1.30.2)(svelte@5.46.0)(typescript@5.9.3)
+      '@fontsource/biz-udpmincho':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@fontsource/yuji-syuku':
         specifier: ^5.2.7
         version: 5.2.7
@@ -246,6 +249,9 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource/biz-udpmincho@5.2.7':
+    resolution: {integrity: sha512-OFmrF8oBnod407E0lg/zIlRATSCe7QRN60z4n+ARi7FYmL4Qe1VDUpKxd8D5RTjfs+23YdBHWU1fAR1KDWGKtw==}
 
   '@fontsource/yuji-syuku@5.2.7':
     resolution: {integrity: sha512-9zBYh4xHWUJsRvsF+78e7H/axtMea8ZiPemc+KZZ06g+0B+kh24gSt/TLQm5rxWqViVmLMX6N8pEQuiyPsg6Cw==}
@@ -2045,6 +2051,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.12':
     optional: true
+
+  '@fontsource/biz-udpmincho@5.2.7': {}
 
   '@fontsource/yuji-syuku@5.2.7': {}
 

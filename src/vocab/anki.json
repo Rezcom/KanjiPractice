@@ -3,7 +3,7 @@
     {
       "Kanji": "生産",
       "Kana": "せいさん",
-      "English": "production; manufacture"
+      "English": "production (generalized); manufacture"
     },
     {
       "Kanji": "担当",
@@ -116,11 +116,6 @@
       "English": "hip; lower back; waist"
     },
     {
-      "Kanji": "腰",
-      "Kana": "こし",
-      "English": "hip; lower back; waist"
-    },
-    {
       "Kanji": "作業",
       "Kana": "さぎょう",
       "English": "work; operation; task"
@@ -208,6 +203,161 @@
       "Kanji": "報告",
       "Kana": "ほうこく",
       "English": "report; information"
+    },
+    {
+      "Kanji": "制度",
+      "Kana": "せいど",
+      "English": "system; institution; organization"
+    },
+    {
+      "Kanji": "法律",
+      "Kana": "ほうりつ",
+      "English": "law; legislation; act"
+    },
+    {
+      "Kanji": "商業",
+      "Kana": "しょうぎょう",
+      "English": "commerce; trade; business"
+    },
+    {
+      "Kanji": "全然",
+      "Kana": "ぜんぜん",
+      "English": "(not) at all; wholly; completely (neg. context)"
+    },
+    {
+      "Kanji": "利用",
+      "Kana": "りよう",
+      "English": "use; utilization"
+    },
+    {
+      "Kanji": "怒る",
+      "Kana": "おこる",
+      "English": "to get angry"
+    },
+    {
+      "Kanji": "当然",
+      "Kana": "とうぜん",
+      "English": "natural; naturally; proper; of course"
+    },
+    {
+      "Kanji": "能力",
+      "Kana": "のうりょく",
+      "English": "ability; capability"
+    },
+    {
+      "Kanji": "社員",
+      "Kana": "しゃいん",
+      "English": "company employee"
+    },
+    {
+      "Kanji": "便利",
+      "Kana": "べんり",
+      "English": "convenient; handy; useful"
+    },
+    {
+      "Kanji": "不便",
+      "Kana": "ふべん",
+      "English": "inconvenient"
+    },
+    {
+      "Kanji": "可能",
+      "Kana": "かのう",
+      "English": "possible; potential; feasible"
+    },
+    {
+      "Kanji": "突然",
+      "Kana": "とつぜん",
+      "English": "abrupt; sudden; unexpected"
+    },
+    {
+      "Kanji": "計算",
+      "Kana": "けいさん",
+      "English": "calculation; computation; consideration; estimation; expectation"
+    },
+    {
+      "Kanji": "引き算",
+      "Kana": "ひきざん",
+      "English": "subtraction (mathematics)"
+    },
+    {
+      "Kanji": "足し算",
+      "Kana": "たしざん",
+      "English": "addition (mathematics)"
+    },
+    {
+      "Kanji": "掛け算",
+      "Kana": "かけざん",
+      "English": "multiplication (mathematics)"
+    },
+    {
+      "Kanji": "割り算",
+      "Kana": "わりざん",
+      "English": "division (mathematics)"
+    },
+    {
+      "Kanji": "数学",
+      "Kana": "すうがく",
+      "English": "mathematics"
+    },
+    {
+      "Kanji": "複数",
+      "Kana": "ふくすう",
+      "English": "plural; multiple"
+    },
+    {
+      "Kanji": "交差点",
+      "Kana": "こうさてん",
+      "English": "crossing; intersection"
+    },
+    {
+      "Kanji": "交通費",
+      "Kana": "こうつうひ",
+      "English": "traveling expenses"
+    },
+    {
+      "Kanji": "品物",
+      "Kana": "しなもの",
+      "English": "goods; wares; item; article"
+    },
+    {
+      "Kanji": "返す",
+      "Kana": "かえす",
+      "English": "to return (something); to put back; to pay back; to turn upside-down"
+    },
+    {
+      "Kanji": "数える",
+      "Kana": "かぞえる",
+      "English": "to count; to enumerate"
+    },
+    {
+      "Kanji": "投げる",
+      "Kana": "なげる",
+      "English": "to throw or toss; to give up, abandon; to cast (a glance, doubt, etc)"
+    },
+    {
+      "Kanji": "期間",
+      "Kana": "きかん",
+      "English": "period; term; interval"
+    },
+    {
+      "Kanji": "時期",
+      "Kana": "じき",
+      "English": "time; season; period; phase; stage"
+    },
+    {
+      "Kanji": "製造",
+      "Kana": "せいぞう",
+      "English": "manufacturing (industrial); production"
+    },
+    {
+      "Kanji": "限る",
+      "Kana": "to restrict or be restricted; to limit or be limited to; to confine or be confined",
+      "English": "manufacturing (industrial); production"
+    },
+    {
+      "Kanji": "限る",
+      "Kana": "to restrict or be restricted; to limit or be limited to; to confine or be confined",
+      "English": "manufacturing (industrial); production"
     }
   ]
 }

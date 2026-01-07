@@ -1,6 +1,5 @@
 <script lang="ts">
   import KanjiPractice from "./KanjiPractice.svelte";
-
   let windowState: "Menu" | "Practice" = $state("Menu");
 </script>
 

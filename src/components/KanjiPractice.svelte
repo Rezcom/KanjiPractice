@@ -153,7 +153,7 @@
         class={"text-white text-center ".concat(
           currentQuestion && currentQuestion.questionType === "english"
             ? "font-serif text-4xl"
-            : "font-Yuji text-6xl"
+            : "font-serif text-6xl"
         )}
       >
         {questionString}
@@ -171,16 +171,16 @@
       </div>
     {:else}
       <div class="flex flex-col mx-auto mb-8">
-        {#if currentQuestion?.term.Kanji}
-          <div class="text-white text-center font-Yuji text-6xl mb-2">
+        {#if currentQuestion.term.Kanji}
+          <div class="text-white text-center font-Mincho text-6xl mb-2">
             {currentQuestion.term.Kanji}
           </div>
         {/if}
-        <div class="text-white text-center font-Yuji text-6xl mb-2">
-          {currentQuestion?.term.Kana}
+        <div class="text-white text-center font-Mincho text-6xl mb-2">
+          {currentQuestion.term.Kana}
         </div>
         <div class="text-white text-center font-serif text-4xl">
-          {currentQuestion?.term.English}
+          {currentQuestion.term.English}
         </div>
       </div>
 
