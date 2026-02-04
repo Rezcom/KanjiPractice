@@ -1,14 +1,17 @@
 import ankiData from "@vocab/anki.json";
-import type { Question, VocabSet } from "./types";
+import type { Question, QuestionType, VocabSet } from "./types";
 
-export function loadAllSets(selectedSets: { anki: boolean }): Question[] {
+export function loadAllSets(
+  selectedSets: { anki: boolean },
+  questionTypes: Record<QuestionType, boolean>,
+): Question[] {
   const allSets: Record<string, VocabSet> = {
     anki: ankiData,
   };
 
   return Object.entries(selectedSets)
     .filter(([_, isSelected]) => isSelected)
-    .flatMap(([setName]) => loadSet(allSets[setName]));
+    .flatMap(([setName]) => loadSet(allSets[setName], questionTypes));
 }
 
 export const shuffle = <T>(array: T[]): T[] => {
@@ -20,12 +23,20 @@ export const shuffle = <T>(array: T[]): T[] => {
   return result;
 };
 
-function loadSet(vocabSet: VocabSet): Question[] {
-  return vocabSet.vocab.map((term) => ({
-    term,
-    questionType: "english",
-    kanaCorrect: 0,
-    englishCorrect: 0,
-    attempts: 0,
-  }));
+function loadSet(
+  vocabSet: VocabSet,
+  questionTypes: Record<QuestionType, boolean>,
+): Question[] {
+  const enabledTypes = (Object.keys(questionTypes) as QuestionType[]).filter(
+    (type) => questionTypes[type],
+  );
+
+  return vocabSet.vocab.flatMap((term) =>
+    enabledTypes.map((type) => ({
+      term,
+      questionType: type,
+      correct: 0,
+      attempts: 0,
+    })),
+  );
 }

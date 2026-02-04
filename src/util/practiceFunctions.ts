@@ -18,25 +18,6 @@ export function getQuestionString(question: Question | undefined): string {
 export function isQuestionFinished(
   question: Question,
   maxCorrect: number,
-  questionTypes: Record<QuestionType, boolean>
 ): boolean {
-  const englishDone =
-    !questionTypes.english || question.englishCorrect >= maxCorrect;
-  const kanaDone = !questionTypes.kana || question.kanaCorrect >= maxCorrect;
-
-  return englishDone && kanaDone;
-}
-
-export function getNewQuestionType(
-  question: Question,
-  maxCorrect: number,
-  questionTypes: Record<QuestionType, boolean>
-): QuestionType | null {
-  const needsEnglish =
-    questionTypes.english && question.englishCorrect < maxCorrect;
-  const needsKana = questionTypes.kana && question.kanaCorrect < maxCorrect;
-
-  if (needsEnglish) return "english";
-  if (needsKana) return "kana";
-  return null;
+  return question.correct >= maxCorrect;
 }

@@ -138,7 +138,7 @@
     {
       "Kanji": "分野",
       "Kana": "ぶんや",
-      "English": "field (of study); subject; realm (of expertise)"
+      "English": "field (of study); sphere; realm (of expertise); branch"
     },
     {
       "Kana": "はっきり",
@@ -351,13 +351,8 @@
     },
     {
       "Kanji": "限る",
-      "Kana": "to restrict or be restricted; to limit or be limited to; to confine or be confined",
-      "English": "manufacturing (industrial); production"
-    },
-    {
-      "Kanji": "限る",
-      "Kana": "to restrict or be restricted; to limit or be limited to; to confine or be confined",
-      "English": "manufacturing (industrial); production"
+      "Kana": "かぎる",
+      "English": "to restrict or be restricted; to limit or be limited to; to confine or be confined"
     }
   ]
 }

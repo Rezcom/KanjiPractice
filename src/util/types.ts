@@ -7,8 +7,7 @@ export interface VocabSet {
 export interface Question {
   term: Term;
   questionType: QuestionType;
-  englishCorrect: number;
-  kanaCorrect: number;
+  correct: number;
   attempts: number;
 }
 

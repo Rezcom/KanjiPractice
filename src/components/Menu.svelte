@@ -1,6 +1,11 @@
 <script lang="ts">
   import KanjiPractice from "./KanjiPractice.svelte";
   let windowState: "Menu" | "Practice" = $state("Menu");
+
+  let askEnglish = $state(true);
+  let askKana = $state(true);
+
+  const checkboxClass = "mt-1 rounded-sm text-green-600 bg-gray-200 mx-2";
 </script>
 
 {#if windowState === "Menu"}
@@ -16,9 +21,28 @@
         Begin
       </button>
     </div>
+    <div class="grid grid-cols-3 gap-4 mt-4">
+      <div class="flex flex-row">
+        <input
+          type="checkbox"
+          bind:checked={askEnglish}
+          class={checkboxClass}
+        />
+        <span class="text-white">Ask English</span>
+      </div>
+      <div class="flex flex-row">
+        <input type="checkbox" bind:checked={askKana} class={checkboxClass} />
+        <span class="text-white">Ask Kana</span>
+      </div>
+    </div>
   </div>
 {:else}
   <KanjiPractice
+    questionTypes={{
+      english: askEnglish,
+      kana: askKana,
+      kanji: false,
+    }}
     finished={() => {
       windowState = "Menu";
     }}

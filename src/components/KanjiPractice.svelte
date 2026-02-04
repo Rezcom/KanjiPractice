@@ -1,7 +1,6 @@
 <script lang="ts">
   import { loadAllSets, shuffle } from "@/util/dataFunctions";
   import {
-    getNewQuestionType,
     getQuestionString,
     isQuestionFinished,
     promptStrings,
@@ -87,50 +86,26 @@
       currentQuestion.attempts += 1;
       if (correct) {
         // User got it correct
+        currentQuestion.correct += 1;
 
-        switch (currentQuestion.questionType) {
-          case "english":
-            currentQuestion.englishCorrect += 1;
-            break;
-          case "kana":
-            currentQuestion.kanaCorrect += 1;
-            break;
-        }
-
-        if (isQuestionFinished(currentQuestion, maxCorrect, questionTypes)) {
-          // Question is finished, do not add to next batch
-        } else {
+        if (!isQuestionFinished(currentQuestion, maxCorrect)) {
           // Question is unfinished, shuffle in to remaining batch
-          const newQuestionType = getNewQuestionType(
-            currentQuestion,
-            maxCorrect,
-            questionTypes
-          );
-          if (!newQuestionType) {
-            console.error(
-              "User does not need the question, but a new question type was called for anyway"
-            );
-            return;
-          }
-          currentQuestion.questionType = newQuestionType;
           remainingQuestions = [currentQuestion, ...remainingQuestions];
         }
       } else {
         // User got it wrong, reset correct stats and put it in next batch
-        currentQuestion.englishCorrect = 0;
-        currentQuestion.kanaCorrect = 0;
+        currentQuestion.correct = 0;
         nextBatch = [currentQuestion, ...nextBatch];
       }
-
-      getNextQuestion();
     } else {
       console.error("Answer submitted with no current question selected");
     }
+    getNextQuestion();
   }
 
   onMount(() => {
     // Load questions
-    const allQuestions = shuffle(loadAllSets(useSets));
+    const allQuestions = shuffle(loadAllSets(useSets, questionTypes));
 
     currentBatch = allQuestions.slice(0, batchSize);
     remainingQuestions = allQuestions.slice(batchSize);
@@ -153,7 +128,7 @@
         class={"text-white text-center ".concat(
           currentQuestion && currentQuestion.questionType === "english"
             ? "font-serif text-4xl"
-            : "font-serif text-6xl"
+            : "font-serif text-6xl",
         )}
       >
         {questionString}
