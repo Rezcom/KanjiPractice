@@ -240,6 +240,16 @@
       "English": "eel"
     },
     {
+      "Kanji": "帆立",
+      "Kana": "ほたて",
+      "English": "japanese scallop"
+    },
+    {
+      "Kanji": "穴子",
+      "Kana": "あなご",
+      "English": "conger eel"
+    },
+    {
       "Kanji": "丼",
       "Kana": "どんぶり",
       "English": "porcelain bowl; bowl of meat served over rice"
@@ -265,9 +275,29 @@
       "English": "oil"
     },
     {
-      "Kanji": "油",
-      "Kana": "あぶら",
-      "English": "oil"
+      "Kanji": "唐辛子",
+      "Kana": "とうがらし",
+      "English": "chili pepper; capsicum"
+    },
+    {
+      "Kanji": "振り掛け",
+      "Kana": "ふりかけ",
+      "English": "rice seasoning (usu. containing fish meal, seaweed, sesame, etc)"
+    },
+    {
+      "Kanji": "枝豆",
+      "Kana": "えだまめ",
+      "English": "edamame (green soybeans)"
+    },
+    {
+      "Kanji": "胡麻",
+      "Kana": "ごま",
+      "English": "sesame seeds"
+    },
+    {
+      "Kanji": "胡麻油",
+      "Kana": "ごまあぶら",
+      "English": "sesame seeds"
     }
   ]
 }

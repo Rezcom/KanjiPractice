@@ -11,6 +11,7 @@
 
   let askEnglish = $state(true);
   let askKana = $state(true);
+  let askKanji = $state(false);
 
   const checkboxClass = "mt-1 rounded-sm text-green-600 bg-gray-200 mx-2";
 </script>
@@ -65,6 +66,10 @@
         <input type="checkbox" bind:checked={askKana} class={checkboxClass} />
         <span class="text-white">Ask Kana</span>
       </div>
+      <div class="flex flex-row">
+        <input type="checkbox" bind:checked={askKanji} class={checkboxClass} />
+        <span class="text-white">Ask Kanji</span>
+      </div>
     </div>
   </div>
 {:else}
@@ -72,7 +77,7 @@
     questionTypes={{
       english: askEnglish,
       kana: askKana,
-      kanji: false,
+      kanji: askKanji,
     }}
     finished={() => {
       windowState = "Menu";

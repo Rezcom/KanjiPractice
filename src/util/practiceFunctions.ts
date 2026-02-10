@@ -12,7 +12,9 @@ export function getQuestionString(question: Question | undefined): string {
   }
   return question.questionType === "english"
     ? question.term.English
-    : question.term.Kana;
+    : question.questionType === "kanji" && question.term.Kanji
+      ? question.term.Kanji
+      : question.term.Kana;
 }
 
 export function isQuestionFinished(
