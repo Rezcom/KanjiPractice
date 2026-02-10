@@ -5,6 +5,7 @@
   let useSets: VocabSetlist = $state({
     anki: false,
     food: false,
+    song: false,
   });
 
   let windowState: "Menu" | "Practice" = $state("Menu");
@@ -49,6 +50,17 @@
           class={checkboxClass}
         />
         <span class="text-white">Food</span>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 mt-4">
+      <div class="flex flex-row">
+        <input
+          type="checkbox"
+          bind:checked={useSets.song}
+          class={checkboxClass}
+        />
+        <span class="text-white">Song</span>
       </div>
     </div>
 

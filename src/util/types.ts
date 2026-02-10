@@ -3,6 +3,7 @@ export type QuestionType = "kana" | "english" | "kanji";
 export interface VocabSetlist {
   anki: boolean;
   food: boolean;
+  song: boolean;
 }
 
 export interface VocabSet {

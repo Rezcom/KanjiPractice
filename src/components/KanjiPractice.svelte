@@ -21,6 +21,7 @@
     useSets = {
       anki: false,
       food: false,
+      song: false,
     },
     batchSize = 10,
     maxCorrect = 1,
