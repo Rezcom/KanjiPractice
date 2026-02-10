@@ -1,0 +1,273 @@
+{
+  "vocab": [
+    {
+      "Kanji": "酸っぱい",
+      "Kana": "すっぱい",
+      "English": "sour"
+    },
+    {
+      "Kanji": "甘い",
+      "Kana": "あまい",
+      "English": "sweet tasting; sugary"
+    },
+    {
+      "Kanji": "苦い",
+      "Kana": "にがい",
+      "English": "bitter (taste)"
+    },
+    {
+      "Kanji": "辛い",
+      "Kana": "からい",
+      "English": "spicy (taste)"
+    },
+    {
+      "Kanji": "旨み",
+      "Kana": "うまみ",
+      "English": "umami (flavor); good flavor"
+    },
+    {
+      "Kanji": "香辛料",
+      "Kana": "こうしんりょう",
+      "English": "spice; condiment"
+    },
+    {
+      "Kanji": "味わう",
+      "Kana": "あじわう",
+      "English": "to taste; to savor; to relish"
+    },
+    {
+      "Kanji": "味がする",
+      "Kana": "あじがする",
+      "English": "to have a taste of (suru expression)"
+    },
+    {
+      "Kanji": "味",
+      "Kana": "あじ",
+      "English": "flavor; taste"
+    },
+    {
+      "Kanji": "匂い",
+      "Kana": "におい",
+      "English": "smell; scent; odor"
+    },
+    {
+      "Kanji": "匂う",
+      "Kana": "におう",
+      "English": "to be fragrant; to smell like something"
+    },
+    {
+      "Kanji": "嗅ぐ",
+      "Kana": "かぐ",
+      "English": "to sniff; to smell"
+    },
+    {
+      "Kanji": "茹でる",
+      "Kana": "ゆでる",
+      "English": "to boil"
+    },
+    {
+      "Kanji": "蒸す",
+      "Kana": "むす",
+      "English": "to steam (food; towel; etc) (wo); to be hot and humid (ga)"
+    },
+    {
+      "Kanji": "炒める",
+      "Kana": "いためる",
+      "English": "to fry; to sauté; to stir-fry"
+    },
+    {
+      "Kanji": "焼き飯",
+      "Kana": "やきめし",
+      "English": "fried rice"
+    },
+    {
+      "Kanji": "御飯",
+      "Kana": "ごはん",
+      "English": "cooked rice; food; meal"
+    },
+    {
+      "Kanji": "焼き",
+      "Kana": "やき",
+      "English": "roasting; grilling; toasting"
+    },
+    {
+      "Kanji": "豚肉",
+      "Kana": "ぶたにく",
+      "English": "pork"
+    },
+    {
+      "Kanji": "鶏",
+      "Kana": "にわとり",
+      "English": "chicken"
+    },
+    {
+      "Kanji": "寿司 ",
+      "Kana": "すし",
+      "English": "sushi"
+    },
+    {
+      "Kanji": "酒",
+      "Kana": "さけ",
+      "English": "alcohol"
+    },
+    {
+      "Kanji": "海苔",
+      "Kana": "のり",
+      "English": "edible seaweed"
+    },
+    {
+      "Kanji": "卵 ",
+      "Kana": "たまご",
+      "English": "egg"
+    },
+    {
+      "Kanji": "出汁 ",
+      "Kana": "だし",
+      "English": "fish and kelp soup stock"
+    },
+    {
+      "Kanji": "汁",
+      "Kana": "しる",
+      "English": "soup; broth; juice"
+    },
+    {
+      "Kanji": "味噌",
+      "Kana": "みそ",
+      "English": "fermented soybean condiment"
+    },
+    {
+      "Kanji": "麺",
+      "Kana": "めん",
+      "English": "noodles"
+    },
+    {
+      "Kanji": "野菜",
+      "Kana": "やさい",
+      "English": "vegetable"
+    },
+    {
+      "Kanji": "牛乳",
+      "Kana": "ぎゅうにゅう",
+      "English": "milk"
+    },
+    {
+      "Kanji": "乳製品",
+      "Kana": "にゅうせいひん",
+      "English": "dairy products"
+    },
+    {
+      "Kanji": "林檎",
+      "Kana": "りんご",
+      "English": "apple"
+    },
+    {
+      "Kanji": "葡萄",
+      "Kana": "ぶどう",
+      "English": "grape; grapevine"
+    },
+    {
+      "Kanji": "柚子",
+      "Kana": "ゆず",
+      "English": "yuzu citrus fruit"
+    },
+    {
+      "Kanji": "梨",
+      "Kana": "なし",
+      "English": "japanese pear"
+    },
+    {
+      "Kanji": "西瓜",
+      "Kana": "すいか",
+      "English": "watermelon"
+    },
+    {
+      "Kanji": "南瓜",
+      "Kana": "かぼちゃ",
+      "English": "pumpkin"
+    },
+    {
+      "Kanji": "天ぷら",
+      "Kana": "てんぷら",
+      "English": "tempura"
+    },
+    {
+      "Kanji": "天ぷら",
+      "Kana": "てんぷら",
+      "English": "tempura"
+    },
+    {
+      "Kanji": "巻 (巻き)",
+      "Kana": "まき",
+      "English": "roll (cloth, sushi); winding (e.g. watch); volumn (of book)"
+    },
+    {
+      "Kanji": "鮪",
+      "Kana": "まぐろ",
+      "English": "tuna"
+    },
+    {
+      "Kanji": "魬",
+      "Kana": "はまち",
+      "English": "yellowtail"
+    },
+    {
+      "Kanji": "海老",
+      "Kana": "えび",
+      "English": "shrimp; prawn; lobster"
+    },
+    {
+      "Kanji": "烏賊",
+      "Kana": "いか",
+      "English": "squid; cuttlefish"
+    },
+    {
+      "Kanji": "蛸",
+      "Kana": "たこ",
+      "English": "octopus"
+    },
+    {
+      "Kana": "イクラ",
+      "English": "salted salmon roe"
+    },
+    {
+      "Kanji": "海胆",
+      "Kana": "うに",
+      "English": "sea urchin"
+    },
+    {
+      "Kanji": "鰻",
+      "Kana": "うなぎ",
+      "English": "eel"
+    },
+    {
+      "Kanji": "丼",
+      "Kana": "どんぶり",
+      "English": "porcelain bowl; bowl of meat served over rice"
+    },
+    {
+      "Kanji": "豚骨",
+      "Kana": "とんこつ",
+      "English": "pork bones"
+    },
+    {
+      "Kanji": "骨",
+      "Kana": "ほね",
+      "English": "bone; frame; outline"
+    },
+    {
+      "Kanji": "醤油",
+      "Kana": "しょうゆ",
+      "English": "soy sauce"
+    },
+    {
+      "Kanji": "油",
+      "Kana": "あぶら",
+      "English": "oil"
+    },
+    {
+      "Kanji": "油",
+      "Kana": "あぶら",
+      "English": "oil"
+    }
+  ]
+}

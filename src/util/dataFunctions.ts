@@ -1,15 +1,17 @@
 import ankiData from "@vocab/anki.json";
-import type { Question, QuestionType, VocabSet } from "./types";
+import foodData from "@vocab/food.json";
+import type { Question, QuestionType, VocabSet, VocabSetlist } from "./types";
 
 export function loadAllSets(
-  selectedSets: { anki: boolean },
+  useSets: VocabSetlist,
   questionTypes: Record<QuestionType, boolean>,
 ): Question[] {
   const allSets: Record<string, VocabSet> = {
     anki: ankiData,
+    food: foodData,
   };
 
-  return Object.entries(selectedSets)
+  return Object.entries(useSets)
     .filter(([_, isSelected]) => isSelected)
     .flatMap(([setName]) => loadSet(allSets[setName], questionTypes));
 }

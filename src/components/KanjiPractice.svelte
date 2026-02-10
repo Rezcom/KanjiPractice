@@ -5,14 +5,12 @@
     isQuestionFinished,
     promptStrings,
   } from "@/util/practiceFunctions";
-  import type { Question, QuestionType } from "@/util/types";
+  import type { Question, QuestionType, VocabSetlist } from "@/util/types";
   import { onMount } from "svelte";
 
   interface Props {
     // Sets to use
-    useSets?: {
-      anki: boolean;
-    };
+    useSets: VocabSetlist;
     questionTypes?: Record<QuestionType, boolean>;
     batchSize?: number;
     maxCorrect?: number;
@@ -21,7 +19,8 @@
 
   const {
     useSets = {
-      anki: true,
+      anki: false,
+      food: false,
     },
     batchSize = 10,
     maxCorrect = 1,

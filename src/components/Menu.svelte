@@ -1,5 +1,12 @@
 <script lang="ts">
+  import type { VocabSetlist } from "@/util/types";
   import KanjiPractice from "./KanjiPractice.svelte";
+
+  let useSets: VocabSetlist = $state({
+    anki: false,
+    food: false,
+  });
+
   let windowState: "Menu" | "Practice" = $state("Menu");
 
   let askEnglish = $state(true);
@@ -21,6 +28,30 @@
         Begin
       </button>
     </div>
+
+    <div class="grid grid-cols-3 gap-4 mt-4">
+      <div class="flex flex-row">
+        <input
+          type="checkbox"
+          bind:checked={useSets.anki}
+          class={checkboxClass}
+        />
+        <span class="text-white">Anki 1</span>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 mt-4">
+      <div class="flex flex-row">
+        <input
+          type="checkbox"
+          bind:checked={useSets.food}
+          class={checkboxClass}
+        />
+        <span class="text-white">Food</span>
+      </div>
+    </div>
+
+    <!-- Question Types-->
     <div class="grid grid-cols-3 gap-4 mt-4">
       <div class="flex flex-row">
         <input
@@ -46,5 +77,6 @@
     finished={() => {
       windowState = "Menu";
     }}
+    {useSets}
   />
 {/if}
