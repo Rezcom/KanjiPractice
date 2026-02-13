@@ -6,6 +6,7 @@
     anki: false,
     food: false,
     song: false,
+    body: false,
   });
 
   let windowState: "Menu" | "Practice" = $state("Menu");
@@ -31,36 +32,50 @@
       </button>
     </div>
 
-    <div class="grid grid-cols-3 gap-4 mt-4">
-      <div class="flex flex-row">
-        <input
-          type="checkbox"
-          bind:checked={useSets.anki}
-          class={checkboxClass}
-        />
-        <span class="text-white">Anki 1</span>
+    <!-- Sets -->
+    <div class="grid grid-cols-2">
+      <div class="grid grid-cols-3 gap-4 mt-4">
+        <div class="flex flex-row">
+          <input
+            type="checkbox"
+            bind:checked={useSets.anki}
+            class={checkboxClass}
+          />
+          <span class="text-white">Anki 1</span>
+        </div>
       </div>
-    </div>
 
-    <div class="grid grid-cols-3 gap-4 mt-4">
-      <div class="flex flex-row">
-        <input
-          type="checkbox"
-          bind:checked={useSets.food}
-          class={checkboxClass}
-        />
-        <span class="text-white">Food</span>
+      <div class="grid grid-cols-3 gap-4 mt-4">
+        <div class="flex flex-row">
+          <input
+            type="checkbox"
+            bind:checked={useSets.food}
+            class={checkboxClass}
+          />
+          <span class="text-white">Food</span>
+        </div>
       </div>
-    </div>
 
-    <div class="grid grid-cols-3 gap-4 mt-4">
-      <div class="flex flex-row">
-        <input
-          type="checkbox"
-          bind:checked={useSets.song}
-          class={checkboxClass}
-        />
-        <span class="text-white">Song</span>
+      <div class="grid grid-cols-3 gap-4 mt-4">
+        <div class="flex flex-row">
+          <input
+            type="checkbox"
+            bind:checked={useSets.song}
+            class={checkboxClass}
+          />
+          <span class="text-white">Song</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4 mt-4">
+        <div class="flex flex-row">
+          <input
+            type="checkbox"
+            bind:checked={useSets.body}
+            class={checkboxClass}
+          />
+          <span class="text-white">Body</span>
+        </div>
       </div>
     </div>
 

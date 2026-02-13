@@ -22,6 +22,7 @@
       anki: false,
       food: false,
       song: false,
+      body: false,
     },
     batchSize = 10,
     maxCorrect = 1,

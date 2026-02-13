@@ -1,6 +1,7 @@
 import ankiData from "@vocab/anki.json";
 import foodData from "@vocab/food.json";
 import songData from "@vocab/song.json";
+import bodyData from "@vocab/body.json";
 import type { Question, QuestionType, VocabSet, VocabSetlist } from "./types";
 
 export function loadAllSets(
@@ -11,6 +12,7 @@ export function loadAllSets(
     anki: ankiData,
     food: foodData,
     song: songData,
+    body: bodyData,
   };
 
   return Object.entries(useSets)

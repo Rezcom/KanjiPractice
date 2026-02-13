@@ -4,6 +4,7 @@ export interface VocabSetlist {
   anki: boolean;
   food: boolean;
   song: boolean;
+  body: boolean;
 }
 
 export interface VocabSet {

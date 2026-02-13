@@ -42,7 +42,7 @@
     },
     {
       "Kanji": "置く",
-      "Kana": "おく",
+      "Kana": "おく (動詞)",
       "English": "to put; to place"
     },
     {
@@ -74,6 +74,122 @@
       "Kanji": "静か",
       "Kana": "しずか",
       "English": "quiet, silent; slow, unhurried; calm, peaceful"
+    },
+    {
+      "Kanji": "恋",
+      "Kana": "こい",
+      "English": "(romantic) love"
+    },
+    {
+      "Kanji": "恋",
+      "Kana": "こい",
+      "English": "(romantic) love"
+    },
+    {
+      "Kanji": "伝う",
+      "Kana": "つたう",
+      "English": "to go along; to walk along; to follow"
+    },
+    {
+      "Kanji": "呪う",
+      "Kana": "のろう",
+      "English": "to curse; to put a curse on; to detest intensely"
+    },
+    {
+      "Kanji": "呪う",
+      "Kana": "のろう",
+      "English": "to curse; to put a curse on; to detest intensely"
+    },
+    {
+      "Kanji": "奥",
+      "Kana": "おく (名詞)",
+      "English": "inner part; interior; back (of a drawer, one's throat, etc); depths (of a forest); end (of a road)"
+    },
+    {
+      "Kanji": "昼下がり",
+      "Kana": "ひるさがり",
+      "English": "early afternoon"
+    },
+    {
+      "Kanji": "想う",
+      "Kana": "おもう (心で)",
+      "English": "to think (with deep sentiment); to imagine; to hope; to feel"
+    },
+    {
+      "Kanji": "馳せる",
+      "Kana": "はせる",
+      "English": "to run; to hurry (when going somewhere); to ride/drive quickly"
+    },
+    {
+      "Kanji": "何者",
+      "Kana": "なにもの",
+      "English": "who; what kind of person"
+    },
+    {
+      "Kanji": "肖像",
+      "Kana": "しょうぞう",
+      "English": "portrait; likeness; picture"
+    },
+    {
+      "Kanji": "憂い",
+      "Kana": "うれい",
+      "English": "sorrow; grief; anguish; anxiety; worry"
+    },
+    {
+      "Kanji": "悔やみ",
+      "Kana": "くやみ",
+      "English": "conlodences"
+    },
+    {
+      "Kanji": "尽く",
+      "Kana": "ずく",
+      "English": "relying entirely on...; using solely...; with the sole purpose of..."
+    },
+    {
+      "Kanji": "徒花",
+      "Kana": "あだばな",
+      "English": "non-fruit-bearing flower; something flashy with no content"
+    },
+    {
+      "Kanji": "咲く",
+      "Kana": "さく",
+      "English": "to bloom; to flower; to blossom"
+    },
+    {
+      "Kanji": "散る",
+      "Kana": "ちる",
+      "English": "to fall (blossoms, leaves), to scatter or be dispersed; to disappear, dissolve; to die a noble death"
+    },
+    {
+      "Kanji": "無限",
+      "Kana": "むげん",
+      "English": "infinity; eternity"
+    },
+    {
+      "Kanji": "膨張",
+      "Kana": "ぼうちょう",
+      "English": "expansion; swelling; increase; growth"
+    },
+    {
+      "Kanji": "銀河",
+      "Kana": "ぎんが",
+      "English": "galaxy; Milky Way"
+    },
+    {
+      "Kanji": "隙間",
+      "Kana": "すきま",
+      "English": "gap; opening; crevice; spare moment; carelessness; weak spot"
+    },
+    {
+      "Kanji": "粒",
+      "Kana": "つぶ; つび; つぼ",
+      "English": "grain; bead; drop;"
+    },
+    {
+      "Kanji": "零れる",
+      "Kana": "こぼれる",
+      "English": "to spill; to fall out of; to overflow; to peek through; to become visible (although normally not)"
     }
+
   ]
 }
