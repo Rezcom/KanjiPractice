@@ -5,6 +5,7 @@ export interface VocabSetlist {
   food: boolean;
   song: boolean;
   body: boolean;
+  travel: boolean;
 }
 
 export interface VocabSet {

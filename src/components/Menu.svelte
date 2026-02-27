@@ -7,6 +7,7 @@
     food: false,
     song: false,
     body: false,
+    travel: false,
   });
 
   let windowState: "Menu" | "Practice" = $state("Menu");
@@ -75,6 +76,17 @@
             class={checkboxClass}
           />
           <span class="text-white">Body</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4 mt-4">
+        <div class="flex flex-row">
+          <input
+            type="checkbox"
+            bind:checked={useSets.travel}
+            class={checkboxClass}
+          />
+          <span class="text-white">Travel</span>
         </div>
       </div>
     </div>

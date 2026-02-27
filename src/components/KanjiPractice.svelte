@@ -23,6 +23,7 @@
       food: false,
       song: false,
       body: false,
+      travel: false,
     },
     batchSize = 10,
     maxCorrect = 1,
@@ -129,7 +130,7 @@
         class={"text-white text-center ".concat(
           currentQuestion && currentQuestion.questionType === "english"
             ? "font-serif text-4xl"
-            : "font-serif text-6xl",
+            : "font-serif text-6xl"
         )}
       >
         {questionString}

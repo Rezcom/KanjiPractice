@@ -1,0 +1,93 @@
+{
+  "vocab": [
+    {
+      "Kanji": "空港",
+      "Kana": "くうこう",
+      "English": "airport"
+    },
+    {
+      "Kanji": "北",
+      "Kana": "きた",
+      "English": "north"
+    },
+    {
+      "Kanji": "東",
+      "Kana": "ひがし",
+      "English": "east"
+    },
+    {
+      "Kanji": "南",
+      "Kana": "みなみ",
+      "English": "south"
+    },
+    {
+      "Kanji": "西",
+      "Kana": "にし",
+      "English": "west"
+    },
+    {
+      "Kanji": "れつ",
+      "Kana": "れつ (に)",
+      "English": "queue (of people); row; file; group; sequence (math); procession"
+    },
+    {
+      "Kanji": "注文",
+      "Kana": "ちゅうもん",
+      "English": "order (for an item) (suru verb); request"
+    },
+    {
+      "Kanji": "商品",
+      "Kana": "しょうひん",
+      "English": "commodity; article of commerce; goods; merchandise"
+    },
+    {
+      "Kanji": "空港",
+      "Kana": "くうこう",
+      "English": "airport"
+    },
+    {
+      "Kanji": "観光",
+      "Kana": "かんこう",
+      "English": "tourism"
+    },
+    {
+      "Kanji": "観光客",
+      "Kana": "かんこうきゃく",
+      "English": "tourist"
+    },
+    {
+      "Kanji": "観光地",
+      "Kana": "かんこうち",
+      "English": "tourist attraction"
+    },
+    {
+      "Kanji": "景色",
+      "Kana": "けしき",
+      "English": "scenery; landscape"
+    },
+    {
+      "Kanji": "水族館",
+      "Kana": "すいぞくかん",
+      "English": "aquarium"
+    },
+    {
+      "Kana": "わくわく",
+      "English": "to be excited, nervous, or thrilled (suru verb; adverb)"
+    },
+    {
+      "Kanji": "受付",
+      "Kana": "うけつけ",
+      "English": "reception (desk); receptionist"
+    },
+    {
+      "Kanji": "切符",
+      "Kana": "きっぷ",
+      "English": "ticket"
+    },
+    {
+      "Kanji": "真っ直ぐ",
+      "Kana": "まっすぐ",
+      "English": "straight (ahead); direct; straightforward (honest; frank)"
+    }
+  ]
+}
